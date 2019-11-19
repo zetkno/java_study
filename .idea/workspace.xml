@@ -2,87 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e78471e4-c044-4f50-b574-f633e97f3fb2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetkno/java基础.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zetkno/java基础.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetkno/leetcode/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zetkno/leetcode/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jvm/Math.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jvm/Math.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/Address.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/ArayInit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/ArayInit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/Array.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/ArrayDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/ArrayDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/ArrayReverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/ArrayReverse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/ArrayUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/ArrayUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/AutoInc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/AutoInc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/Bowl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/Bowl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/Channel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/Channel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/Cupboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/Cupboard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/IODemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/IODemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/JavaDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/JavaDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/Message.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/MyClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/MyClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/Person0.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/Person0.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/ReverseArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/ReverseArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/SortArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/SortArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/StaticInitialization.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/StaticInitialization.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/Table.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/VowelsAndConsonants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/VowelsAndConsonants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/WhilTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/WhilTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/clazz/BeanUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/clazz/BeanUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/clazz/ClassInstanceFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/clazz/ClassInstanceFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/clazz/Company.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/clazz/Company.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/clazz/CreateObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/clazz/CreateObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/clazz/Dept.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/clazz/Dept.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/clazz/Emp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/clazz/Emp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/clazz/EmpDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/clazz/EmpDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/clazz/JavaDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/clazz/JavaDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/clazz/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/clazz/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/clazz/Person1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/clazz/Person1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/clazz/StringUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/clazz/StringUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/collection/DouLinkList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/collection/DouLinkList$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/collection/DouLinkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/collection/DouLinkList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/collection/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/collection/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/collection/TestMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/collection/TestMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/demo/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/demo/A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/demo/AImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/demo/AImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/demo/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/demo/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/designPatterns/Factory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/designPatterns/Factory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/designPatterns/FactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/designPatterns/FactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/designPatterns/IMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/designPatterns/IMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/designPatterns/NetMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/designPatterns/NetMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/designPatterns/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/designPatterns/Singleton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/designPatterns/SingletonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/designPatterns/SingletonTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/io/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/io/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/io/FileUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/io/FileUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/io/IODemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/io/IODemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/leetcode/AddTwoNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/leetcode/AddTwoNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/leetcode/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/leetcode/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/leetcode/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/leetcode/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/leetcode/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/leetcode/TwoSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/serializabledemo/DeserializableDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/serializabledemo/DeserializableDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/serializabledemo/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/serializabledemo/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/serializabledemo/SerializableDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/serializabledemo/SerializableDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/stringdemo/StringDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/stringdemo/StringDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/stringutils/StringUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/stringutils/StringUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/thread/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/thread/B.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/thread/CacheThreadPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/thread/CacheThreadPool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/thread/CallableDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/thread/CallableDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/thread/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/thread/Consumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/thread/DeadLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/thread/DeadLock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/thread/LiftOff.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/thread/LiftOff.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/thread/MainThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/thread/MainThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/thread/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/thread/Message.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/thread/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/thread/MyThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/thread/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/thread/Producer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/thread/TaskWithResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/thread/TaskWithResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/thread/ThreadDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/thread/ThreadDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/thread/ThreadProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/thread/ThreadProducer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/thread/WangJian.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/thread/WangJian.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetkno/thread/XiaoQiang.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetkno/thread/XiaoQiang.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetkno/demo/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zetkno/demo/Demo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -103,23 +23,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zetkno/java基础.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Demo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1870">
-              <caret line="87" column="30" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="198">
+              <caret line="9" column="142" lean-forward="true" selection-start-line="9" selection-start-column="132" selection-end-line="9" selection-end-column="142" />
             </state>
           </provider>
         </entry>
@@ -127,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/Program Files/Java/jdk1.7.0_80/src.zip!/java/util/HashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="485" column="13" selection-start-line="485" selection-start-column="13" selection-end-line="485" selection-end-column="13" />
+            <state relative-caret-position="257">
+              <caret line="800" column="17" selection-start-line="800" selection-start-column="17" selection-end-line="800" selection-end-column="17" />
               <folding>
                 <element signature="e#10426#10427#0" expanded="true" />
                 <element signature="e#10484#10485#0" expanded="true" />
@@ -140,10 +48,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zetkno/demo/Demo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zetkno/demo/AImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zetkno/demo/A.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/HashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12716">
-              <caret line="624" column="12" selection-start-line="624" selection-start-column="12" selection-end-line="624" selection-end-column="12" />
+            <state relative-caret-position="179">
+              <caret line="599" column="73" lean-forward="true" selection-start-line="599" selection-start-column="73" selection-end-line="599" selection-end-column="73" />
               <folding>
                 <element signature="e#24331#24332#0" expanded="true" />
                 <element signature="e#24396#24397#0" expanded="true" />
@@ -203,6 +147,7 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console_2.groovy" />
         <option value="$PROJECT_DIR$/src/main/java/Demo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zetkno/java基础.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zetkno/demo/Demo.java" />
       </list>
     </option>
   </component>
@@ -283,7 +228,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zetkno" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -370,12 +315,12 @@
       <workItem from="1573534300785" duration="17803000" />
       <workItem from="1573643246978" duration="393000" />
       <workItem from="1573643781922" duration="2600000" />
-      <workItem from="1573800084064" duration="931000" />
+      <workItem from="1573800084064" duration="2496000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30301000" />
+    <option name="totallyTimeSpent" value="31866000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -441,13 +386,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/HashSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3960">
@@ -518,34 +456,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12716">
-          <caret line="624" column="12" selection-start-line="624" selection-start-column="12" selection-end-line="624" selection-end-column="12" />
-          <folding>
-            <element signature="e#24331#24332#0" expanded="true" />
-            <element signature="e#24396#24397#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7656">
           <caret line="374" column="14" selection-start-line="374" selection-start-column="14" selection-end-line="374" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.7.0_80/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="485" column="13" selection-start-line="485" selection-start-column="13" selection-end-line="485" selection-end-column="13" />
-          <folding>
-            <element signature="e#10426#10427#0" expanded="true" />
-            <element signature="e#10484#10485#0" expanded="true" />
-            <element signature="e#10650#10651#0" expanded="true" />
-            <element signature="e#10717#10718#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -556,10 +470,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="599" column="73" lean-forward="true" selection-start-line="599" selection-start-column="73" selection-end-line="599" selection-end-column="73" />
+          <folding>
+            <element signature="e#24331#24332#0" expanded="true" />
+            <element signature="e#24396#24397#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zetkno/demo/AImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zetkno/demo/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_study.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zetkno/java基础.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        <state relative-caret-position="198">
+          <caret line="9" column="142" lean-forward="true" selection-start-line="9" selection-start-column="132" selection-end-line="9" selection-end-column="142" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.7.0_80/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="800" column="17" selection-start-line="800" selection-start-column="17" selection-end-line="800" selection-end-column="17" />
+          <folding>
+            <element signature="e#10426#10427#0" expanded="true" />
+            <element signature="e#10484#10485#0" expanded="true" />
+            <element signature="e#10650#10651#0" expanded="true" />
+            <element signature="e#10717#10718#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zetkno/demo/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
