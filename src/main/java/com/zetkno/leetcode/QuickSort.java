@@ -3,10 +3,11 @@ package com.zetkno.leetcode;
 public class QuickSort {
     public static void main(String[] args) {
 
-        int[] arr={20,6,3,5,8,2,1,9,4,7};
-        quickSort(arr, 0, arr.length - 1);
-        for(int i=0;i<arr.length;i++)
-            System.out.println(arr[i]);
+
+        int[] nums = {6, 5, 8, 4, 7, 3, 9};
+        quickSort(nums, 0, nums.length - 1);
+        for(int i=0;i<nums.length;i++)
+            System.out.println(nums[i]);
     }
     public static void quickSort(int a[], int beg, int end) {
         if (beg > end) {
