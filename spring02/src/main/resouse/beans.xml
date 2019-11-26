@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+    <!--注解自动扫描-->
+    <context:component-scan base-package="com.zetkno"></context:component-scan>
+    <aop:aspectj-autoproxy/>
+    <!--对aop进行配置-->
+    <!--局部切入点-->
+    <aop:config>
+        <!--配置切面-->
+        <!--配通知和切入点的关系—被抽取的公共部分
+        要把通知切入点所在类配置成受Spring管理的Bean-->
+        <!--<aop:pointcut id="abc" expression="execution(* com.zetkno.aop.TargetObj.method1(int, int))" />-->
+        <aop:pointcut id="abc" expression="execution(* com.zetkno.aop.TargetObj.method1())" />
+        <!--<aop:aspect ref="advice">-->
+            <!--<aop:after method="after" pointcut-ref="abc"/>-->
+        <!--</aop:aspect>-->
+        <!--<aop:aspect ref="advice" >-->
+        <!--<aop:before method="before1" pointcut-ref="abc" />-->
+        <!--</aop:aspect>-->
+        <!--<aop:aspect ref="advice" >-->
+            <!--<aop:before method="before2" pointcut-ref="abc" />-->
+        <!--</aop:aspect>-->
+        <!--<aop:aspect ref="advice" >-->
+            <!--<aop:before method="before3" pointcut-ref="abc" />-->
+        <!--</aop:aspect>-->
+        <!--<aop:aspect ref="advice">-->
+            <!--<aop:around method="getArgs" pointcut-ref="abc" />-->
+        <!--</aop:aspect>-->
+        <aop:aspect ref="advice">
+            <aop:around method="getReturn" pointcut-ref="abc"/>
+        </aop:aspect>
+        <!--<aop:aspect ref="advice">-->
+            <!--<aop:before method="getArgs1" pointcut-ref="abc" />-->
+        <!--</aop:aspect>-->
+        <!--<aop:aspect ref="advice">-->
+            <!--<aop:after method="after1" pointcut-ref="abc"/>-->
+        <!--</aop:aspect>-->
+        <!--<aop:aspect ref="advice">-->
+            <!--<aop:after method="after2" pointcut-ref="abc" />-->
+        <!--</aop:aspect>-->
+        <!--<aop:aspect ref="advice" >-->
+            <!--<aop:around method="around" pointcut-ref="abc" />-->
+        <!--</aop:aspect>-->
+
+    </aop:config>
+
+    <!--目标对象-->
+    <bean id="target" class="com.zetkno.aop.TargetObj"></bean>
+    <!--通知-->
+    <bean id="advice" class="com.zetkno.aop.MyAdvice"></bean>
+
+</beans>

@@ -1,6 +1,8 @@
+import com.zetkno.clazz.Person;
 import org.apache.poi.hslf.examples.DataExtraction;
 
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class Demo {
 
@@ -79,17 +81,98 @@ public class Demo {
 //        long ll2 = System.currentTimeMillis();
 //        System.out.println(ll2 - ll1);
 
-        HashMap<Integer, String> map = new HashMap<>();
-        map.put(1, "张三");
-        map.put(2, "李四");
-        map.put(3, "王五");
-        String s = map.put(3, "赵云");
-        map.put(4, "赵云");
-        System.out.println(s);
-
+//        Person[] p = new Person[3];
+//        Person[] pArray =  p;
+//        int i = 0;
+//        Person person = pArray[i];
+//        System.out.println(person);
+//        String s = "李四";
+//        System.out.println(s.hashCode());
+//        for (Person person = pArray[i]; person != null; i++) {
+//            System.out.println("for loops");
+//        }
+//        HashMap<String, String> map = new HashMap<>();
+//        map.put("三国", "张三");
+//        map.put("西游记", "李四");
+//        map.put("海贼王", "王五");
 //        for(Integer key : map.keySet()) {
 //            String value = map.get(key);
 //            System.out.println("<" + key + ", " + value + ">");
 //        }
+//        String a = "abc";
+//        String b = new String("abc");
+//        String c = "a" + "bc";
+//        System.out.println(a == b);
+//        System.out.println(a == c);
+//        System.out.println(b == c);
+//        System.out.println(a.equals(b));
+//        System.out.println(b.equals(c));
+//        System.out.println(b.replace("c", "b"));
+        for (int i = 0; ; i++) {
+            System.out.println(i);
+        }
+
+
+    }
+}
+class P implements Comparable{
+    private String name;
+    private int age;
+    private String gender;
+
+    public P() {}
+
+    public P(String name, int age, String gender) {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public int hashCode() {
+        return name.hashCode() + age * 37;
+    }
+
+    public boolean equals(Object obj) {
+        if (!(obj instanceof P)) {
+            return false;
+        }
+        P p = (P) obj;
+        return this.name.equals(p.name) && this.age == age;
+    }
+
+    @Override
+    public int compareTo(Object obj) {
+        P p = (P) obj;
+        if (this.age > p.age) {
+            return 1;
+        }
+        if (this.age < p.age) {
+            return -1;
+        }
+        return this.name.compareTo(p.name);
     }
 }

@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="48bb164f-6743-4d7d-8271-c2b2f5f88cee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/cityImport.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spring02_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spring02_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zetkno/aop/AopTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zetkno/aop/MyAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zetkno/aop/TargetObj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zetkno/bean/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zetkno/bean/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zetkno/bean/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zetkno/bean/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zetkno/controller/AnimalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zetkno/dynamicProxy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zetkno/dynamicProxy/Host.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zetkno/dynamicProxy/ProxyInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zetkno/dynamicProxy/Rent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zetkno/dynamicProxy/cglibProxy/CallbackMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zetkno/dynamicProxy/cglibProxy/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zetkno/dynamicProxy/cglibProxy/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zetkno/dynamicProxy/jdkProxy/MyInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zetkno/dynamicProxy/jdkProxy/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zetkno/dynamicProxy/jdkProxy/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zetkno/dynamicProxy/jdkProxy/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zetkno/service/CatImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zetkno/service/DogImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zetkno/service/IAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zetkno/socket/BIOMysqlClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zetkno/socket/BIOMysqlServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zetkno/spring02/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zetkno/spring02/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zetkno/staticProxy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zetkno/staticProxy/Host.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zetkno/staticProxy/Proxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zetkno/staticProxy/Rent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resouse/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resouse/beans1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/Java笔记.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/AddingGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/ArrayClassObj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/ArrayInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/ArrayNew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/ArraysOfPrimitives.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/BerylliumSphere.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Burrito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/ContainerComparison.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/DynamicArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/PassingThis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/ArayInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/ArrayDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/ArrayUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/AutoInc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/IODemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/JavaDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/StaticInitialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/VowelsAndConsonants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/WhilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/clazz/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/clazz/JavaDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/clazz/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/collection/DouLinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/collection/TestMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/demo/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/demo/AImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/demo/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/designPatterns/FactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/designPatterns/SingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/io/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/io/IODemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/java基础.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/leetcode/AddTwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/leetcode/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/leetcode/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/serializabledemo/DeserializableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/serializabledemo/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/serializabledemo/SerializableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/stringdemo/StringDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/stringutils/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/thread/CacheThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/thread/DeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/thread/LiftOff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/thread/TaskWithResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/thread/ThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/zetkno/thread/ThreadProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/CityImport.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/CityImport.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resouse/beans1.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="43" column="19" lean-forward="true" selection-start-line="42" selection-start-column="33" selection-end-line="43" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zetkno/aop/MyAdvice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1012">
+              <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zetkno/aop/TargetObj.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>target</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resouse/beans.xml" />
+        <option value="$PROJECT_DIR$/src/main/resouse/beans1.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\.m2\repository" />
+        <option name="userSettingsFile" value="F:\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="377" />
+    <option name="y" value="38" />
+    <option name="width" value="1159" />
+    <option name="height" value="820" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zetkno" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zetkno" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resouse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../gs-managing-transactions" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="48bb164f-6743-4d7d-8271-c2b2f5f88cee" name="Default Changelist" comment="" />
+      <created>1571801313564</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571801313564</updated>
+      <workItem from="1571801317602" duration="2582000" />
+      <workItem from="1571807053237" duration="632000" />
+      <workItem from="1572859925553" duration="2301000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5515000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20528017" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Spring" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="SciView" order="7" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resouse/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="57" column="20" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1141">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zetkno/aop/TargetObj.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zetkno/aop/MyAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resouse/beans1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="43" column="19" lean-forward="true" selection-start-line="42" selection-start-column="33" selection-end-line="43" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -15,17 +15,24 @@ public class Demo {
 
     public static void main(String[] args) {
 
-        int a = 3, b = 5;
-        System.out.println("a = "  +  a + "  b = "  + b);
-        a = a + b;   //a = 8
-        b = a - b;   //b = 3
-        a = a - b;   //a = 5
 
-        System.out.println("a = "  +  a + "  b = "  + b);
+//        forDemo
+        for (int j = 0; j < -5; j++) {
+            System.out.println("for loop execute");
+        }
 
 
-        int[] nums = {5,4,3,2};
-        Demo.bubble(nums);
+//        int a = 3, b = 5;
+//        System.out.println("a = "  +  a + "  b = "  + b);
+//        a = a + b;   //a = 8
+//        b = a - b;   //b = 3
+//        a = a - b;   //a = 5
+//
+//        System.out.println("a = "  +  a + "  b = "  + b);
+//
+//
+//        int[] nums = {5,4,3,2};
+//        Demo.bubble(nums);
 
     }
 

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd
+">
+        <!--对aop进行配置-->
+    <!--局部切入点-->
+        <aop:config>
+            <!--配置切面-->
+            <!--配通知和切入点的关系—被抽取的公共部分
+            -->
+            <aop:aspect ref="advice">
+                <!--配置切面  把通知类中的方法和目标对象中的方法相关联-->
+                <!--<aop:before method="one" pointcut="execution(public void com.zetkno.aop.TargetObj.method1())"/>-->
+                <!--execution()括号内就是切入点表达式-->
+                <!--访问修饰符可以省略，*表示任何返回值，*..表示任意层级的包-->
+                <!--*Obj任意Obj结尾的类-->
+                <!--met*()开头的所有方法-->
+                <!--方法里的..表示0到多个任意参数-->
+                <aop:before method="one" pointcut="execution(* *..*Obj.met*(..))"/>
+            </aop:aspect>
+        </aop:config>
+
+
+    <!--要把通知切入点所在类配置成受Spring管理的Bean-->
+        <!--目标对象-->
+        <bean id="target" class="com.zetkno.aop.TargetObj"></bean>
+        <!--通知 相当于日志，事务-->
+         <bean id="advice" class="com.zetkno.aop.MyAdvice"></bean>
+
+        <!--无参构造-->
+        <bean name="hello" class="com.zetkno.spring02.Hello">
+            <property name="name" value="张三"/>
+        </bean>
+
+
+    <!--singleton单例，整个容器中只有一个对象实例  默认
+    prototype原型，每次获取bean都产生一个新的对象
+    request在每次请求的时候
+    session一次会话
+    golbal session只在prototype下有用，表示application
+    -->
+    <bean id="addr" class="com.zetkno.bean.Address" scope="singleton">
+        <property name="address" value="江干区白杨街道"/>
+    </bean>
+    <bean id="student" class="com.zetkno.bean.Student">
+        <property name="name" value="李四"/>
+        <!--bean注入-->
+        <property name="addr" ref="addr"/>
+        <!--数组注入-->
+        <property name="books">
+            <array>
+                <value>《活着》</value>
+                <value>《钢铁是怎样炼成的》</value>
+            </array>
+        </property>
+        <!--list注入-->
+        <property name="hobbies">
+            <list>
+                <value>羽毛球</value>
+                <value>乒乓球</value>
+                <value>足球</value>
+                <value>玻璃球</value>
+            </list>
+        </property>
+        <!--map注入-->
+        <property name="cards">
+            <map>
+                <entry key="中国银行" value="342343283940329843"></entry>
+                <entry>
+                    <key><value>招商银行</value></key>
+                    <value>420359823948329</value>
+                </entry>
+            </map>
+        </property>
+        <!--set注入-->
+        <property name="games">
+            <set>
+                <value>王者荣耀</value>
+                <value>和平精英</value>
+                <value>球球大作战</value>
+            </set>
+        </property>
+        <!--null注入-->
+        <property name="wife">
+            <null></null>
+        </property>
+        <!--properties注入-->
+        <property name="info">
+            <props>
+                <prop key="学号">2019001</prop>
+                <prop key="sex">男</prop>
+                <prop key="name">庄周</prop>
+            </props>
+        </property>
+        <!--命名空间注入-->
+    </bean>
+
+    <bean id="employee" class="com.zetkno.bean.Employee"
+    p:name="鹰眼" p:age="37">
+
+    </bean>
+        <!--有参构造-->
+        <!--<bean id="hello1" class="com.zetkno.spring02.Hello">-->
+            <!--<constructor-arg name="name" value="李四"></constructor-arg>-->
+        <!--</bean>-->
+
+        <!--通过工厂创建对象-->
+        <!--静态工厂，需要创建工厂类-->
+        <!--动态工厂-->
+</beans>
